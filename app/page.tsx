@@ -104,7 +104,7 @@ export default function Home() {
 
               <div className="flex sm:gap-4 gap-2">
                 <div className="flex flex-col gap-2">
-                  <h3 className="text-xl font-semibold text-white">Backend & API</h3>
+                  <h3 className="text-xl font-semibold text-white">Backend &amp; API</h3>
                   <div className="flex flex-wrap gap-10 mt-5 mb-5">
                     <div className="flex items-center gap-3 text-sm/6 font-semibold text-white">
                       <Image className="bg-white p-2 rounded-full" src="/node.png" width={40} height={40}  alt="node logo"/> Node</div>
@@ -118,7 +118,7 @@ export default function Home() {
 
               <div className="flex sm:gap-4 gap-2">
                 <div className="flex flex-col gap-2">
-                  <h3 className="text-xl font-semibold text-white">Databases & ORM</h3>
+                  <h3 className="text-xl font-semibold text-white">Databases &amp; ORM</h3>
                   <div className="flex flex-wrap gap-10 mt-5 mb-5">
                     <div className="flex items-center gap-3 text-sm/6 font-semibold text-white">
                       <Image className="bg-white p-2 rounded-full" src="/mssql.png" width={40} height={40}  alt="Mssql logo"/> Mssql</div>
@@ -134,7 +134,7 @@ export default function Home() {
 
               <div className="flex sm:gap-4 gap-2">
                 <div className="flex flex-col gap-2">
-                  <h3 className="text-xl font-semibold text-white">CSS Lib's</h3>
+                  <h3 className="text-xl font-semibold text-white">CSS Lib&amp;quot;s</h3>
                   <div className="flex flex-wrap gap-10 mt-5 mb-5">
                     <div className="flex items-center gap-3 text-sm/6 font-semibold text-white">
                       <Image className="bg-white p-2 rounded-full" src="/shadcn.png" width={40} height={40} alt="shadcn logo" /> Shadcn</div>
@@ -169,9 +169,9 @@ export default function Home() {
                       <h3 className="flex items-center mb-1 text-lg font-semibold text-white dark:text-white">TOO Luna8 <span className="bg-yellow-100 text-black text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-yellow-900 dark:text-yellow-300 ms-3">Последняя</span></h3>
                       <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Работаю с 08.2024</time>
                       <p className="mb-4 text-base font-normal text-gray-300 dark:text-gray-200">
-                        "Разработка кадрового документооборота" <br />
-                        "Разработка личных кабинетов кадровика, сотрудника" <br />
-                        "Автоматизация процессов: прием; уволнение; перемещение; отпуска;"</p>
+                        &quot;Разработка кадрового документооборота&quot; <br />
+                        &quot;Разработка личных кабинетов кадровика, сотрудника&quot; <br />
+                        &quot;Автоматизация процессов: прием; уволнение; перемещение; отпуска;&quot;</p>
 
                     </li>
                     <li className="mb-10 ms-6">
@@ -183,10 +183,10 @@ export default function Home() {
                       <h3 className="mb-1 text-lg font-semibold text-white dark:text-white">Zhetysu University</h3>
                       <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Работаю с 09.2019 по 09.2024</time>
                       <p className="text-base font-normal text-gray-300 dark:text-gray-400">
-                        "Разработка платформы для университета" <br />
-                        "Личный кабинет обучающихся\преподавателей" <br />
-                        "Реализация системы управления успеваемостью" <br />
-                        "Разработка системы тестирования" <br />
+                        &quot;Разработка платформы для университета&quot; <br />
+                        &quot;Личный кабинет обучающихся\преподавателей&quot; <br />
+                        &quot;Реализация системы управления успеваемостью&quot; <br />
+                        &quot;Разработка системы тестирования&quot; <br />
                       </p>
                     </li>
                     <li className="ms-6">
@@ -198,8 +198,8 @@ export default function Home() {
                       <h3 className="mb-1 text-lg font-semibold text-white dark:text-white">Студентческие годы</h3>
                       <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Начиная с 2015 по 2019</time>
                       <p className="text-base font-normal text-gray-300 dark:text-gray-400">
-                        "Разработка сайтов на Wordpress" <br />
-                        "Разработка собственной LMS платформы" <br />
+                        &quot;Разработка сайтов на Wordpress&quot; <br />
+                        &quot;Разработка собственной LMS платформы&quot; <br />
                       </p>
                     </li>
                   </ol>
