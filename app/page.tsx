@@ -206,7 +206,7 @@ export default function Home() {
               
               </div>
               <div id="education">
-                 <div className="w-fit sm:mb-20 mb-10">
+                 <div className="w-fit sm:mb-20 mb-10 mt-20 lg:mt-0">
                   <h2 className="text-2xl font-bold text-white pb-2">Образование</h2>
                   <div className="border-[1px] border-white overflow-hidden">
                     <hr className="border-[3px] border-blue-300 w-[40%]" />
