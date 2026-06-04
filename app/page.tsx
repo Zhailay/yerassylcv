@@ -69,7 +69,7 @@ export default function Home() {
               <p className="text-gray-400 text-sm mb-1">FullStack Developer</p>
               <h2 className="text-white md:text-5xl text-2xl font-bold mb-4">Жайлау Ерасыл</h2>
               <p className="text-gray-400 text-md mb-6">
-                Я опытный Full-Stack разработчик с 5-ти летним стажем. Владею современными технологиями и фреймворками веб-разработки. Стремлюсь быть в курсе последних тенденций и достижений в области web-работки. Ищу роль, где я мог бы использовать свои навыки для обеспечения успеха интересных и сложных проектов.
+                Я опытный Full-Stack разработчик с 7-ми летним стажем. Владею современными технологиями и фреймворками веб-разработки. Стремлюсь быть в курсе последних тенденций и достижений в области web-работки. Ищу роль, где я мог бы использовать свои навыки для обеспечения успеха интересных и сложных проектов.
               </p>
 
               <div>
@@ -245,37 +245,129 @@ export default function Home() {
 
           <section className="w-full sm:pt-20 pt-10 md:px-20 px-6" id="projects">
 
-            <div className="w-fit sm:mb-20 mb-10">
+            <div className="w-fit sm:mb-14 mb-8">
               <h2 className="text-2xl font-bold text-white pb-2">Мои работы</h2>
               <div className="rounded-t-full border-[1px] border-gray-500 overflow-hidden">
                 <hr className="border-[3px] border-yellow-300 w-[60%]" />
               </div>
             </div>
 
-            <div className="w-full flex md:flex-nowrap flex-wrap gap-4 items-center justify-center">
-             <div className="grid grid-cols-2 gap-2">
-                <div>
-                    <Image className="h-auto max-w-full" width={500} height={500} src="/kadrovik.jpg" alt="Кабинет кадровика" />
+            <div className="w-full grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5">
+
+              {/* ИИ-психолог */}
+              <div className="flex flex-col bg-[#1a1a1a] border border-gray-700 rounded-xl overflow-hidden hover:border-yellow-400 transition-colors duration-300">
+                <div className="h-1 bg-gradient-to-r from-purple-500 to-pink-500" />
+                <div className="p-6 flex flex-col gap-3 flex-1">
+                  <div className="flex items-start justify-between gap-2">
+                    <h3 className="text-lg font-bold text-white leading-snug">ИИ-психолог</h3>
+                    <span className="shrink-0 text-xs px-2 py-1 rounded-full bg-purple-900 text-purple-300">AI</span>
+                  </div>
+                  <p className="text-sm text-gray-400 leading-relaxed">
+                    Платформа психологической поддержки на базе искусственного интеллекта. ИИ анализирует уровень тревожности пользователя и при необходимости подключает реального специалиста. В критических ситуациях отправляет уведомления в Telegram. Включает расслабляющую мини-игру «Кроссворд» и систему анкетирования.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mt-auto pt-3">
+                    {["Анализ тревожности", "Telegram", "Кроссворд", "Анкетирование"].map(tag => (
+                      <span key={tag} className="text-xs px-2 py-0.5 rounded bg-gray-700 text-gray-300">{tag}</span>
+                    ))}
+                  </div>
                 </div>
-                <div>
-                    <Image className="h-auto max-w-full" width={500} height={500} src="/employee.jpg" alt="Кабинет сотрудника" />
+              </div>
+
+              {/* LMS */}
+              <div className="flex flex-col bg-[#1a1a1a] border border-gray-700 rounded-xl overflow-hidden hover:border-yellow-400 transition-colors duration-300">
+                <div className="h-1 bg-gradient-to-r from-blue-500 to-cyan-400" />
+                <div className="p-6 flex flex-col gap-3 flex-1">
+                  <div className="flex items-start justify-between gap-2">
+                    <h3 className="text-lg font-bold text-white leading-snug">LMS система</h3>
+                    <span className="shrink-0 text-xs px-2 py-1 rounded-full bg-blue-900 text-blue-300">EdTech</span>
+                  </div>
+                  <p className="text-sm text-gray-400 leading-relaxed">
+                    Полнофункциональная система управления обучением. Загрузка видео и текстовых материалов, промежуточное тестирование, гибкий конструктор тестов с настройкой вопросов, а также полноценный модуль управления пользователями и курсами.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mt-auto pt-3">
+                    {["Видео-курсы", "Тестирование", "Конструктор тестов", "Управление юзерами"].map(tag => (
+                      <span key={tag} className="text-xs px-2 py-0.5 rounded bg-gray-700 text-gray-300">{tag}</span>
+                    ))}
+                  </div>
                 </div>
-                <div className="grid grid-cols-2 gap-2">
-                    <Image className="h-auto max-w-full" width={250} height={500} src="/joldau.jpg" alt="Мобильное приложение" />
-                    <Image className="h-auto max-w-full" width={250} height={500} src="/joldau.jpg" alt="Мобильное приложение" />
+              </div>
+
+              {/* CMS */}
+              <div className="flex flex-col bg-[#1a1a1a] border border-gray-700 rounded-xl overflow-hidden hover:border-yellow-400 transition-colors duration-300">
+                <div className="h-1 bg-gradient-to-r from-green-500 to-emerald-400" />
+                <div className="p-6 flex flex-col gap-3 flex-1">
+                  <div className="flex items-start justify-between gap-2">
+                    <h3 className="text-lg font-bold text-white leading-snug">CMS на Next.js</h3>
+                    <span className="shrink-0 text-xs px-2 py-1 rounded-full bg-green-900 text-green-300">CMS</span>
+                  </div>
+                  <p className="text-sm text-gray-400 leading-relaxed">
+                    Собственная CMS-система на Next.js — почти полный аналог WordPress. Интуитивный редактор контента и встроенный AI-модуль для автоматического перевода материалов на другие языки, что значительно упрощает работу редакторов.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mt-auto pt-3">
+                    {["Next.js", "AI-перевод", "Редактор", "Мультиязычность"].map(tag => (
+                      <span key={tag} className="text-xs px-2 py-0.5 rounded bg-gray-700 text-gray-300">{tag}</span>
+                    ))}
+                  </div>
                 </div>
-                <div>
-                  <Image
-                  className="h-auto max-w-full"
-                  src="/fhd_landing.gif"
-                  alt="Анимация"
-                  width={500}
-                  height={500}
-                  unoptimized 
-                />
+              </div>
+
+              {/* declension-lib */}
+              <div className="flex flex-col bg-[#1a1a1a] border border-gray-700 rounded-xl overflow-hidden hover:border-yellow-400 transition-colors duration-300">
+                <div className="h-1 bg-gradient-to-r from-yellow-400 to-orange-500" />
+                <div className="p-6 flex flex-col gap-3 flex-1">
+                  <div className="flex items-start justify-between gap-2">
+                    <h3 className="text-lg font-bold text-white leading-snug">declension-lib</h3>
+                    <span className="shrink-0 text-xs px-2 py-1 rounded-full bg-yellow-900 text-yellow-300">npm</span>
+                  </div>
+                  <p className="text-sm text-gray-400 leading-relaxed">
+                    Лёгкая JavaScript-библиотека для склонения слов на русском и казахском языках. Поддерживает основные падежи, предоставляет удобный API и легко встраивается в любые веб-проекты без каких-либо зависимостей.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mt-auto pt-3">
+                    {["JavaScript", "Русский", "Казахский", "Без зависимостей"].map(tag => (
+                      <span key={tag} className="text-xs px-2 py-0.5 rounded bg-gray-700 text-gray-300">{tag}</span>
+                    ))}
+                  </div>
                 </div>
-                
-            </div>
+              </div>
+
+              {/* libspace */}
+              <div className="flex flex-col bg-[#1a1a1a] border border-gray-700 rounded-xl overflow-hidden hover:border-yellow-400 transition-colors duration-300">
+                <div className="h-1 bg-gradient-to-r from-red-500 to-rose-400" />
+                <div className="p-6 flex flex-col gap-3 flex-1">
+                  <div className="flex items-start justify-between gap-2">
+                    <h3 className="text-lg font-bold text-white leading-snug">libspace</h3>
+                    <span className="shrink-0 text-xs px-2 py-1 rounded-full bg-red-900 text-red-300">RFID</span>
+                  </div>
+                  <p className="text-sm text-gray-400 leading-relaxed">
+                    Система автоматизации электронных библиотек с поддержкой RFID-технологии. Создание каталога, регистрация книг и читателей, выдача и возврат литературы, а также полноценное проведение инвентаризации библиотечного фонда.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mt-auto pt-3">
+                    {["RFID", "Каталог", "Выдача книг", "Инвентаризация"].map(tag => (
+                      <span key={tag} className="text-xs px-2 py-0.5 rounded bg-gray-700 text-gray-300">{tag}</span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              {/* Prezentra */}
+              <div className="flex flex-col bg-[#1a1a1a] border border-gray-700 rounded-xl overflow-hidden hover:border-yellow-400 transition-colors duration-300">
+                <div className="h-1 bg-gradient-to-r from-indigo-500 to-violet-500" />
+                <div className="p-6 flex flex-col gap-3 flex-1">
+                  <div className="flex items-start justify-between gap-2">
+                    <h3 className="text-lg font-bold text-white leading-snug">Prezentra</h3>
+                    <span className="shrink-0 text-xs px-2 py-1 rounded-full bg-indigo-900 text-indigo-300">SaaS</span>
+                  </div>
+                  <p className="text-sm text-gray-400 leading-relaxed">
+                    Собственный сервис для проведения живых интерактивных презентаций. Аудитория участвует в реальном времени через вопросы и голосования, делая каждое выступление вовлекающим и динамичным.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mt-auto pt-3">
+                    {["Live-презентации", "Интерактив", "Real-time", "Голосования"].map(tag => (
+                      <span key={tag} className="text-xs px-2 py-0.5 rounded bg-gray-700 text-gray-300">{tag}</span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
             </div>
           </section>
 
