@@ -16,6 +16,7 @@ export default function Home() {
                   <span className="px-1 mr-1 bg-yellow-300">Y</span>
                   <span className="px-1 mr-1 bg-yellow-300">E</span>
                   <span className="px-1 mr-1 bg-yellow-300">R</span>
+                  <span className="px-1 mr-1 bg-yellow-300">A</span>
                   <span className="px-1 mr-1 bg-yellow-300">S</span>
                   <span className="px-1 mr-1 bg-yellow-300">S</span>
                   <span className="px-1 mr-1 bg-yellow-300">Y</span>
